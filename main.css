@@ -19,6 +19,7 @@ html{
 .btnOne {
     border: 2.5px solid white;
     border-radius: 50px;
+    font-weight: 500;
     color: white;
     padding: .75em 3.5em;
     text-decoration: none;
@@ -30,6 +31,7 @@ html{
 .btnTwo {
     border: 2.5px solid #2F6BDB;
     border-radius: 50px;
+    font-weight: 500;
     color: #2F6BDB;
     padding: .75em 3.5em;
     text-decoration: none;
@@ -41,7 +43,7 @@ html{
 
 h2 {
     font-size: 1.5em;
-    font-weight: 200;
+    font-weight: 400;
     color: #747474;
 }
 
@@ -68,6 +70,7 @@ h2 {
 }
 .navSectionWrapper > ul > li {
     display: inline-block;
+    font-weight: 400;
 }
 .navSectionWrapper > ul > li a {
     text-decoration: none;
@@ -76,10 +79,11 @@ h2 {
 }
 .navSectionWrapper > ul > li span {
     color: white;
-    font-weight: 600;
+    font-weight: 900;
 }
 .navSectionWrapper > h1 {
     float: left;
+    font-weight: 700;
     font-size: 1.75em;
     color:white;
 }
@@ -105,13 +109,13 @@ h2 {
 }
 .landingSectionWrapper h1 {
     font-size: 3.5em;
-    font-weight: 200;
+    font-weight: 500;
     color: white;
     line-height: 1.25em;
 }
 .landingSectionWrapper p {
     font-size: 1.25em;
-    font-weight: 200;
+    font-weight: 400;
     color: white;
     padding: 1em 0 2em;
     line-height: 1.25em;
@@ -149,11 +153,12 @@ h2 {
     padding-bottom: 1em;
 }
 .infoRow h3 > span {
-    font-weight: 300;
+    font-weight: 500;
     color: black;
 }
 .infoRow p {
     font-size: 1.25em;
+    font-weight: 400;
     color: #747474;
     padding: 0 0 3em 0;
 }
@@ -222,7 +227,7 @@ h2 {
 }
 .footerSection h3 {
     color: white;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.25em;
     padding: 1em 0;
 }
