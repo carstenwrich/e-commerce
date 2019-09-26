@@ -1,0 +1,241 @@
+html{
+    font-family: "quicksand", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.clearfix:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+.btnOne {
+    border: 2.5px solid white;
+    border-radius: 50px;
+    color: white;
+    padding: .75em 3.5em;
+    text-decoration: none;
+}
+.btnOne:hover {
+    background-color: white;
+    color: #182A7E;
+}
+.btnTwo {
+    border: 2.5px solid #2F6BDB;
+    border-radius: 50px;
+    color: #2F6BDB;
+    padding: .75em 3.5em;
+    text-decoration: none;
+}
+.btnTwo:hover {
+    background-color: #2F6BDB;
+    color: white;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #747474;
+}
+
+.navSection {
+    width: 100%;
+    display: inline-block;
+    line-height: 5.5em;
+    z-index: 2;
+    position: fixed;
+}
+.navSectionWrapper {
+    width: 80%;
+    margin: auto;
+}
+.navSectionWrapper > img {
+    display: inline;
+    float: left;
+    margin: 1em 0 0 0;
+}
+.navSectionWrapper > ul {
+    list-style: none;
+    display: inline;
+    float: right;
+}
+.navSectionWrapper > ul > li {
+    display: inline-block;
+}
+.navSectionWrapper > ul > li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 1em;
+}
+.navSectionWrapper > ul > li span {
+    color: white;
+    font-weight: 600;
+}
+.navSectionWrapper > h1 {
+    float: left;
+    font-size: 1.75em;
+    color:white;
+}
+.navSectionWrapper > h1 span {
+    color: white;
+    font-weight: 200;
+}
+
+.landingSection {
+    width: 100%;
+    background: url(images/E-Comm%20Image%201@2x-100.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.landingSectionWrapper {
+    width: 80%;
+    margin: auto;
+    padding: 3em 0 30em 0;
+}
+.landingContentRight {
+    padding: 20em 0 5em 60em;
+}
+.landingSectionWrapper h1 {
+    font-size: 2.5em;
+    font-weight: 200;
+    color: white;
+    line-height: 1.25em;
+}
+.landingSectionWrapper p {
+    font-size: 1.25em;
+    font-weight: 200;
+    color: white;
+    padding: 1em 0 2em;
+    line-height: 1.25em;
+}
+.landingSectionWrapper a {
+}
+
+.infoSection {
+    width: 100%;
+}
+.infoSectionWrapper {
+    width: 100%;
+    margin: auto;
+}
+.infoRow {
+    display: flex;
+    align-items: center;
+    padding: 4em 0;
+}
+.infoRow img {
+    float: inherit;
+}
+.infoItem {
+    padding: 4em 4em 4em 4em;
+}
+.infoContentRight {
+    padding: 0 20em 0 0;
+}
+.infoContentLeft {
+    padding: 0 0 0 20em;
+}
+.infoRow h3 {
+    font-size: 2.5em;
+    color: #2F6BDB;
+    padding-bottom: 1em;
+}
+.infoRow h3 > span {
+    font-weight: 300;
+    color: black;
+}
+.infoRow p {
+    font-size: 1.25em;
+    color: #747474;
+    padding: 0 0 3em 0;
+}
+
+.callAction {
+    width: 50%;
+    margin: auto;
+}
+.callActionContent {
+    text-align: center;
+    margin: -4em 0 0 0;
+}
+.callAction > h2 {
+    margin: auto;
+}
+.callAction > h2 span {
+    font-weight: 500;
+}
+
+.linkSection {
+    width: 100%;
+    clear: both;
+}
+.linkSectionWrapper {
+    text-align: center;
+    padding: 0 0 5em 0;
+}
+.linkItem {
+    background-color: white;
+    border-radius: 3px;
+    padding: 1.5em;
+    width: 250px;
+    margin: 0 1em;
+    display: inline-block;
+    text-align: left;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.20);
+}
+.linkItem > a {
+    color: #B8BBBC;
+    text-decoration: none;
+}
+.linkItem > img {
+    float: right;
+    margin: 2px 0 0 0;
+}
+
+.footerSection {
+    width: 100%;
+    background: url(images/Footer%20BKG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+.footerSectionWrapper {
+    padding: 20em 10em;
+}
+.footerContentLeft {
+    float: left;
+    padding: 0 6em 0 0;
+}
+.footerContentRight {
+    padding: 2em
+}
+.footerSection h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.25em;
+    padding: 1em 0;
+}
+.footerSection > ul {
+    list-style: none;
+    display: inline;
+    float: right;
+}
+.footerSection > ul > li {
+    display: inline-block;
+}
+.footerSection ul > li > a{
+    text-decoration: none;
+    font-size: 1.25em;
+    color: white;
+}
